@@ -1,0 +1,42 @@
+.fume-grey {
+    color: #BFBFBF; 
+}
+
+
+.light-blue {
+    color: #ADD8E6; 
+}
+
+
+body {
+    background-color: #F2F2F2; 
+}
+
+
+h1 {
+    color: #333333; 
+}
+
+.button {
+    background-color: #ADD8E6; 
+    color: #FFFFFF; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8DB6CD; 
+}
+
+.input-box {
+    border: 1px solid #BFBFBF; 
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input-box:focus {
+    border-color: #ADD8E6;
+    box-shadow: 0 0 5px #ADD8E6; 
+}
