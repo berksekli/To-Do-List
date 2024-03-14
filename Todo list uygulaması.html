@@ -3,19 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Yapılacaklar Listesi</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAA
+    oAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAw4MAAO27AADtuwAA7bsAA
+    O27AADDgwAA//8AAPeDAAD3uwAA97sAAPe7AAD3uwAAwYMAAP//AAD//wAA" 
+    rel="icon" 
+    type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Todo List</h1>
+        <h1>Yapılacaklar Listesi</h1>
         <form id="todo-form">
             <input class="input-box" type="text" id="todo-input" placeholder="Yeni görev ekle...">
             <br>
             <button class="button" type="submit">Ekle</button>
         </form>
-        <ul id="todo-list"></ul>
+        
+        <ul id="todo-list" class="todo-list"></ul>
+         
+        <div class="done-section">
+            <h2>Gerçekleştirilenler</h2>
+            <ul id="done-list" class="done-list"></ul>
+        </div>
     </div>
     
 </body>

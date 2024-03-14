@@ -23,6 +23,36 @@ body {
 }
 
 
+.todo-section {
+    width: 45%;
+}
+
+.done-section {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.todo-list,
+.done-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li,
+.done-list li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todo-list li:hover,
+.done-list li:hover {
+    background-color: #e6e6e6;
+}
+
 h1 {
     color: #333333; 
     text-align: center;
@@ -37,8 +67,6 @@ h1 {
     margin-left: 25px;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: #68d9ff;
-    
 }
 
 
