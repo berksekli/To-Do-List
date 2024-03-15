@@ -18,13 +18,13 @@ function addTodoItem(todoText) {
     todoList.appendChild(li);
     li.addEventListener('click', function() {
         li.remove();
-        moveTodoToDone(li.textContent);
+        moveTodoToDone(todoText);
     });
 }
 
 function moveTodoToDone(todoText) {
     const li = document.createElement('li');
-    li.texrContent = todoText;
+    li.textContent = todoText;
     doneList.appendChild(li);
 
     li.addEventListener('click', function() {
