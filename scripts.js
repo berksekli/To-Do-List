@@ -44,7 +44,26 @@ function addTodoItem(todoText) {
 function moveTodoToDone(todoText) {
     const li = document.createElement('li');
     li.textContent = todoText;
+    
+    const undoButton = document.createElement('button');
+    undoButton.innerHTML = '<i class="fa-solid fa-arrow-rotate-left"></i>'
+    undoButton.classList.add('undo-button');
+    undoButton.style.display = 'none';
+    li.appendChild(undoButton);
+
+    li.addEventListener('mouseenter', function() {
+        undoButton.style.display = 'inline-block';
+    });
+    li.addEventListener('mouseleave', function() {
+        undoButton.style.display = 'none'
+    });
+
     doneList.appendChild(li);
+
+    undoButton.addEventListener('click', function() {
+        li.remove();
+        addTodoItem(todoText);
+    });
 
     li.addEventListener('click', function() {
         li.remove();
