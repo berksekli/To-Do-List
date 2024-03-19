@@ -14,3 +14,9 @@
 <li>HTML düzeni yapıldı.</li>
 <li>Gerçekleştirilenler bölümündeki liste görünümü düzeltildi.</li>
 <li>Görev girme kutusu küçültüldü ve düzenlendi.</li>
+<br>
+<br>
+<h2>19.03.2024</h2>
+<li>Yapılacaklar bölümüne silme butonu ekledim ve üzerine gelince görünür olmasını sağladım</li>
+<li>FontAwsome kütühanesini yükleyip çöp kutusu logosu koydum</li>
+<li>aynı işlemleri Gerçekleştirilenler bölümüne yapıp yanlışlıkla üzerine tıklama durumlarında Yapılacaklar listesine alınabilmesini sağlamak için geri al butonu ekleyip css tasarımlarını biritdim.</li>
