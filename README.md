@@ -8,3 +8,9 @@
 <li>HTML içerikledi değiştirildi.</li>
 <br>
 <br>
+<h2>18.03.2024</h2>
+<br>
+<li>Css ayarlarında yanlışlıklar vardı düzeltildi.</li>
+<li>HTML düzeni yapıldı.</li>
+<li>Gerçekleştirilenler bölümündeki liste görünümü düzeltildi.</li>
+<li>Görev girme kutusu küçültüldü ve düzenlendi.</li>
