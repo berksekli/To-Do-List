@@ -17,6 +17,18 @@ body {
     display: flex;
     justify-content: center;
 }
+.giris-container {
+    max-width: flex;
+    width: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 0 3px; 
+    margin-top: 35px;
+    display: inline-block;
+    text-align: center;
+}
 
 .container,
 .sub-container {
@@ -27,7 +39,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin: 0 3px; 
-    margin-top: 5px;
+    margin-top: 35px;
     display: inline-block;
     text-align: center;
 }
