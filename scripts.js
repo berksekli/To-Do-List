@@ -20,6 +20,25 @@ function addTodoItem(todoText) {
         li.remove();
         moveTodoToDone(todoText);
     });
+
+    const deleteButton = document.createElement('button');
+    deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
+    deleteButton.className = 'delete-button';
+    deleteButton.style.display = 'none';
+    li.appendChild(deleteButton);
+    
+    li.addEventListener('mouseenter', function() {
+        deleteButton.style.display = 'inline-block';
+    });
+
+    li.addEventListener('mouseleave', function() {
+        deleteButton.style.display = 'none';
+    });
+
+    deleteButton.addEventListener('click', function(event) {
+        event.stopPropagation();
+        li.remove();
+    })
 }
 
 function moveTodoToDone(todoText) {
