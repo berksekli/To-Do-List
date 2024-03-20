@@ -20,5 +20,8 @@
 <li>Yapılacaklar bölümüne silme butonu ekledim ve üzerine gelince görünür olmasını sağladım</li>
 <li>FontAwsome kütühanesini yükleyip çöp kutusu logosu koydum</li>
 <li>aynı işlemleri Gerçekleştirilenler bölümüne yapıp yanlışlıkla üzerine tıklama durumlarında Yapılacaklar listesine alınabilmesini sağlamak için geri al butonu ekleyip css tasarımlarını biritdim.</li>
+<br>
+<br>
+<h1>20.03.2024</h1>
 <li>Giriş ekranı yapıldı.</li>
 <li>JavaScript Kodları Düzenlendi</li>
