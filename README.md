@@ -25,3 +25,10 @@
 <h1>20.03.2024</h1>
 <li>Giriş ekranı yapıldı.</li>
 <li>JavaScript Kodları Düzenlendi</li>
+<br>
+<br>
+<h1>21.03.2024</h1>
+<li>Kayıt ol sayfası eklendi</li>
+<li>javaScript kodları değişti, artık kayıt ol sayfasından girilen bilgiler giris-scripts.js'ye kayıt oluyor ve lokal olarak hafızada tutuluyor</li>
+<li>TODO list uygulaması.html olan anasayfanın ismi Anasayfa.html olarak değişti</li>
+<li></li>
