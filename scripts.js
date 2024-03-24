@@ -69,3 +69,10 @@ function moveTodoToDone(todoText) {
         li.remove();
     });
 }
+
+document.querySelector("#cikis-buton").addEventListener("click", function() {
+    
+    history.replaceState(null, "", location.href);
+    
+    window.location.href = "Giris Sayfasi.html";
+});
