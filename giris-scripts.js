@@ -27,3 +27,4 @@ function girisYap(kullaniciAdi, sifre) {
         alert('Kullanıcı adı veya şifre yanlış!');
     }
 }
+var username = "Kullanıcı Adı"; 

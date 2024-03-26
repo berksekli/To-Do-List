@@ -3,6 +3,7 @@ const input = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 const doneList = document.getElementById('done-list');
 
+
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     const todoText = input.value.trim();
@@ -70,9 +71,32 @@ function moveTodoToDone(todoText) {
     });
 }
 
-document.querySelector("#cikis-buton").addEventListener("click", function() {
+document.addEventListener("DOMContentLoaded", function() {
+    var logoutButton = document.getElementById("logoutButton");
+    logoutButton.addEventListener("click", function() {
+        
+        alert("Çıkış yapıldı!");
+    });
+});
+
+history.pushState(null, null, location.href);
+window.onpopstate = function () {
+    history.go(1);
+};
+
+document.addEventListener("DOMContentLoaded", function() {
+    var logoutButton = document.getElementById("logoutButton");
+    var loginRegisterOptions = document.getElementById("loginRegisterOptions");
     
-    history.replaceState(null, "", location.href);
-    
-    window.location.href = "Giris Sayfasi.html";
+    logoutButton.addEventListener("click", function() {
+        
+        logoutButton.style.display = 'none';
+
+        loginRegisterOptions.innerHTML = `
+            <a href="Giris Sayfasi.html">Giriş Yap</a> / 
+            <a href="Kayit ol.html">Kayıt Ol</a>
+        `;
+
+        document.getElementById("usernameDisplay").textContent = username;
+    });
 });

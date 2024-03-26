@@ -13,6 +13,19 @@ body {
     padding: 0;
 }
 
+.cikis-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px; 
+}
+
+.cikis-button a {
+    color: antiquewhite;
+    margin-left: 10px; 
+}
+
 .container-wrapper {
     display: flex;
     justify-content: center;

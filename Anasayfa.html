@@ -19,9 +19,12 @@
 
 </head>
 
-<body>
-    <p><a id="cikis-buton" style="color: antiquewhite; position: absolute; top: 10px; right: 328px;" href="Giris Sayfasi.html">Çıkış Yap</a></p>
-    
+<body>   
+    <div class="cikis-button">
+        <span id="usernameDisplay"></span> 
+        <a id="logoutButton" href="#">Çıkış Yap</a>
+            <div  id="loginRegisterOptions"></div>
+    </div>        
     <div class="container-wrapper">
         <div class="container">
             <h1>Yapılacaklar Listesi</h1>
@@ -34,6 +37,7 @@
             <ul id="todo-list" class="todo-list"></ul>
         </div>
         <div class="sub-container">
+            
             <div class="done-section">
                 <h1 style="margin-left: 35px;">Gerçekleştirilenler</h1>
                 <ul id="done-list" class="done-list"></ul>
