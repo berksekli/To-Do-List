@@ -22,13 +22,18 @@
 <li>aynı işlemleri Gerçekleştirilenler bölümüne yapıp yanlışlıkla üzerine tıklama durumlarında Yapılacaklar listesine alınabilmesini sağlamak için geri al butonu ekleyip css tasarımlarını biritdim.</li>
 <br>
 <br>
-<h1>20.03.2024</h1>
+<h2>20.03.2024</h2>
 <li>Giriş ekranı yapıldı.</li>
 <li>JavaScript Kodları Düzenlendi</li>
 <br>
 <br>
-<h1>21.03.2024</h1>
+<h2>21.03.2024</h2>
 <li>Kayıt ol sayfası eklendi</li>
 <li>javaScript kodları değişti, artık kayıt ol sayfasından girilen bilgiler giris-scripts.js'ye kayıt oluyor ve lokal olarak hafızada tutuluyor</li>
 <li>TODO list uygulaması.html olan anasayfanın ismi Anasayfa.html olarak değişti</li>
-<li></li>
+<br>
+<br>
+<h2>26.03.2024</h2>
+<li>Çıkış yap butonu eklendi</li>
+<li>çıkış yapıldıktan sonra giriş yap ve kayıt ol butonları görünür olması ayarlandı</li>
+<li>Giriş yapıldıktan sonra "Hoş geldiniz 'Kullanıcı Adı', Çıkış Yap!" gibi bir görünüm istedim fakat yapamadım bir sonraki çalışmamda ona yoğunlaşacağım </li>
